@@ -1,0 +1,7 @@
+.more-articles{
+    display: flex;
+    flex-direction: column;
+    height: 438px;
+    width: 507px;
+    gap: 20px;
+}

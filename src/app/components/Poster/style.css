@@ -1,0 +1,107 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  padding-top: 66px;
+  margin-top: 83px;
+}
+.wrapper {
+  height: 567px;
+  background: linear-gradient(rgba(238, 65, 151, 1), rgba(255, 255, 255, 1));
+  opacity: 4%;
+}
+.service-container {
+  left: 21%;
+  padding-top: 66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+}
+.service-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: "Geist", sans-serif;
+}
+.service-heading {
+  font-size: 35px;
+  font-weight: 500;
+
+  color: rgba(57, 57, 57, 1);
+}
+.service-heading span {
+  color: rgba(92, 210, 221, 1);
+}
+.service-description {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(156, 156, 156, 1);
+}
+.service-poster-form-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 40px;
+
+}
+.service-second-poster{
+    flex: 1;
+}
+.service-second-poster-image{
+width: 100%;
+}
+.feedback-container {
+  flex: 1;
+  background-color: rgba(255, 243, 249, 1);
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 34px;
+  font-family: "Geist", sans-serif;
+  gap: 22px;
+}
+.feedback-heading {
+  font-size: 43px;
+
+  font-weight: 500;
+  color: rgba(57, 57, 57, 1);
+}
+.feedback-heading span {
+  font-size: 43px;
+
+  color: rgba(92, 210, 221, 1);
+  font-weight: 500;
+}
+
+.feedback-material{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(189, 162, 176, 1);
+
+}
+.form-container{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+
+}
+.form-container input{
+    height: 58px;
+    flex: 2;
+    border-radius: 8px;
+    border: solid 1px rgba(245, 225, 235, 1);
+}
+.form-button{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(92, 210, 221);
+    color: white;
+    border-radius: 8px;
+    gap: 8px;
+}

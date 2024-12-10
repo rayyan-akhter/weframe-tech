@@ -1,0 +1,136 @@
+.similar-articles-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-right: 30px;
+}
+.similar-articles-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  color: rgba(57, 57, 57, 1);
+}
+.similar-articles-heading-left {
+  font-size: 35px;
+}
+.similar-articles-heading-right {
+  font-size: 16px;
+  text-decoration: underline;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  height: 438px;
+  width: 330px;
+  gap: 20px;
+}
+.article-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  background-color: rgba(249, 247, 245, 1);
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 64px;
+}
+
+.article-image-upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.article-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.description-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(57, 57, 57, 1);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-slide {
+  flex: 0 0 calc(100% / 5);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(92, 210, 221, 1);
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.carousel-button.next {
+  right: 0px;
+}
+
+.carousel-slide .articles {
+  max-width: 330px;
+  height: auto;
+  margin: auto;
+}
+
+.article-details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  font-family: "Geist", sans-serif;
+
+}
+.article-details{
+  font-weight: 400;
+  font-size: 14px;
+    color: rgba(156, 156, 156, 1);
+}
+.article-quantity{
+    width: 68px;
+    height: 26px;
+    border-radius: 20px;
+    padding: 6px 8px;
+    font-weight: 500;
+    font-size: 11px;
+    background-color: rgba(241, 244, 246, 1);
+    color: rgba(84, 106, 125, 1);
+}
