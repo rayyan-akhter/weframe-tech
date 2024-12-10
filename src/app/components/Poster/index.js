@@ -31,7 +31,7 @@ export const Poster = () => {
           </div>
           <div className="feedback-material">
             Office ipsum you must be muted. Synergize helicopter prioritize
-            anyway job due harvest most opportunity didn't. Yet busy any meeting
+            anyway job due harvest most opportunity didnt. Yet busy any meeting
             shark light marginalised 4-blocker message. Productize corporate
             nail caught synergy highlights lunch. Company another pushback items
             dear or any.
